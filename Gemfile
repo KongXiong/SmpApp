@@ -13,7 +13,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 gem 'simple_form'              
 gem "haml-rails", "~> 0.9"     
-gem 'sass-rails', '~> 5.0'     
 gem 'bootstrap-sass'
 
 # Use Capistrano for deployment

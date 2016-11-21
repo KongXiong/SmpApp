@@ -12,5 +12,19 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+
+
+$(document).on("turbolinks:load", function(){
+
+  $(function(){
+    setTimeout(function(){
+      $("#alertBox").slideUp(500)}, 2000);
+  });
+
+
+
+
+});

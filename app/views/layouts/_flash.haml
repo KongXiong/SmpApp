@@ -1,0 +1,4 @@
+.container#alertBox
+  -flash.each do |msg_type, msg|
+    %div{ class: "alert-"+msg_type+"" }
+      =msg

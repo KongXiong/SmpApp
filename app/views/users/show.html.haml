@@ -1,2 +1,9 @@
-Show
-=@user.name
+- provide(:title, @user.name)
+%h1.text-center Show
+
+.row
+  .col-md-4
+    %section.user_info
+      %h1
+        = gravatar_for @user
+        = @user.name

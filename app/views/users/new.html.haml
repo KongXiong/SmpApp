@@ -1,6 +1,5 @@
-%h1 New
-= simple_form_for @user do |f|
-  =f.input :name
-  =f.input :email
-  =f.input :password
-  =f.button :submit
+- provide :title, "Sing up"
+%h1.text-center Signup
+
+
+= render 'form'

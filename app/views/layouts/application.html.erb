@@ -10,8 +10,10 @@
 
   <body>
 
-
     <%= render "layouts/navbar" %>
-    <%= yield %>
+    <%= render "layouts/flash" %>
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
   </body>
 </html>
