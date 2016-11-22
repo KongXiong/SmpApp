@@ -14,6 +14,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'simple_form'              
 gem "haml-rails", "~> 0.9"     
 gem 'bootstrap-sass'
+gem 'will_paginate',           '3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
