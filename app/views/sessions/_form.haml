@@ -7,6 +7,9 @@
             = simple_form_for :session, url: login_create_path do |f|
               =f.input :email, label: false, placeholder: "Email", class: "input-lg"
               =f.input :password, label: false, placeholder: "Password", class: "input-lg"
+              =f.label :remember_me, class: "checkbox inline" do
+                =f.check_box :remember_me
+                %span Remember me on this computer
               =f.button :submit, "Submit", class: "btn-success form-control"
         %p.text-center
           New User?

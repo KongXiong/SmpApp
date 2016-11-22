@@ -1,6 +1,6 @@
+-provide :title, "Index"
 %h1.text-center Index
 
 - @users.each do |user|
-  -provide :title, user
   = user.name
   = user.email
